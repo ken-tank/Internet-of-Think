@@ -1,5 +1,5 @@
 # [Internet-of-Think](https://github.com/ulilalkhaq4/Internet-of-Think)
-## Realtime Temperature Monitor
+## Realtime Temperature Monitor v2
 
 ### Creator: 
 * Muh Ulil Alkhaq (G.211.19.0079)

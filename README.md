@@ -12,4 +12,4 @@ jika suhu >= 30 = 2 lampu hidup dan menyalakan alarm web <br>
 jika suhu >= 31 = 3 lampu hidup dan menyalakan alarm web
 
 ### Screenshot:
-![preview]()
+![preview](Screenshot(46).png)

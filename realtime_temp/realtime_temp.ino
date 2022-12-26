@@ -161,13 +161,13 @@ void loop() {
 
     Serial.println();
     if (topik_suhu == "") {
-      SendMessages("iot/G.211.19.0079", (String) s);
+      SendMessages("iot/G_211_19_0079", (String) s);
     }
     else {
       SendMessages(StringToChar(topik_suhu), (String) s);
     }
     if (topik_kelem == "") {
-      SendMessages("iot/G.211.19.0079-1", (String) k);
+      SendMessages("iot/G_211_19_0079-1", (String) k);
     }
     else {
       SendMessages(StringToChar(topik_kelem), (String) k);

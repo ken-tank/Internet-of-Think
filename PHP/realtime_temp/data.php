@@ -17,9 +17,9 @@
     }
 
     // subscribe ke topik
-    $topics['iot/G.211.19.0079'] = array("qos"=>0, "function"=>"setSuhu");
+    $topics['iot/G_211_19_0079'] = array("qos"=>0, "function"=>"setSuhu");
     $mqtt->subscribe($topics,0);
-    $topics2['iot/G.211.19.0079-1'] = array("qos"=>0, "function"=>"setKelembapan");
+    $topics2['iot/G_211_19_0079-1'] = array("qos"=>0, "function"=>"setKelembapan");
     $mqtt->subscribe($topics2,0);
 
     while (true)
